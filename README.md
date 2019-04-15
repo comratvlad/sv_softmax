@@ -6,6 +6,7 @@ You can see the loss implementation details and related math in [this](https://g
 
 # Results
 We use cifar-10 and cifar-100 to validate implementation and very simple cnn-model.
+
 Loss                      | cifar-10   | cifar-100  
 --------------------------|------------|-----------
 softmax                   | 0.7729     |  0.4917     
