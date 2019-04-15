@@ -16,3 +16,4 @@ sv-softmax, t=1.2         | **0.8219** |  **0.5225**
 sv-softmax, t=1.4         | 0.8184     |  0.5158    
 
 # Future work
+SV-AM-softmax doesn't show improvement on the cifar-10 and cifar-100 datasets. Maybe it's better works in Face Recognition problem, so it's a good idea to test it on such problems.
