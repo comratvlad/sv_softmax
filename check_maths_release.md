@@ -12,16 +12,14 @@ Support vector guided softmax loss - is a novel loss function which adaptively e
 
 Let's define a binary mask to adaptively indicate whether a sample is selected as the support vector by a specific classifier in the current stage. To the end, the binary mask is defined as follows:
 
-$$
-I_k = \left\{
+$$I_k = \left\{
         \begin{array}{ll}
             0, & \quad \cos(\theta_{w_y}, x) − \cos(\theta_{w_k}, x) \ge 0 \\
             1, & \quad \cos(\theta_{w_y}, x) − \cos(\theta_{w_k}, x) < 0
         \end{array}
-      \right.
-$$
+      \right.$$
 
-where $\cos(\theta_{w_k}, x) = w_k^Tx$ is the cosine similarity and $θ_{w_k,x}$ is the angle between $w_k$ and $x$.
+where $$\cos(\theta_{w_k}, x) = w_k^Tx$$ is the cosine similarity and $$θ_{w_k,x}$$ is the angle between $$w_k$$ and $$x$$.
 
 
 ```python
