@@ -15,6 +15,7 @@ sv-softmax, t=1.1         | 0.8171     |  0.5122
 sv-softmax, t=1.2         | **0.8219** |  **0.5225**   
 sv-softmax, t=1.4         | 0.8184     |  0.5158    
 
+Cifar-100:
 ![accuracy](https://github.com/comratvlad/sv_softmax/blob/master/result_plot.png)
 
 # Future work
