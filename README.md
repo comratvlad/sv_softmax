@@ -2,7 +2,7 @@
 Tensorflow implementation of the Support Vector Guided Softmax Loss for Face Recognition paper (https://arxiv.org/pdf/1812.11317.pdf).
 
 # Details
-You can see the loss implementation details and related math in [this](https://github.com/comratvlad/sv_softmax/blob/master/notebooks/check_maths_release.ipynb) notebook. It's better to watch it on your local computer than on github because of the problems with the display of the notebooks. You can also fing losses [here](https://github.com/comratvlad/sv_softmax/blob/master/src/custom_losses.py).
+You can see the loss implementation details and related math in [this](https://github.com/comratvlad/sv_softmax/blob/master/notebooks/check_maths_release.ipynb) notebook. It's better to watch it on your local computer or through the nbviewer, like [this](https://nbviewer.jupyter.org/github/comratvlad/sv_softmax/blob/master/notebooks/check_maths_release.ipynb) than on github because of the problems with the display of the notebooks. You can also fing losses [here](https://github.com/comratvlad/sv_softmax/blob/master/src/custom_losses.py).
 
 # Results
 We use cifar-10 and cifar-100 to validate implementation and very simple cnn-model.
